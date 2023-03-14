@@ -16,6 +16,7 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+      //BFS
 class Solution {
 public:
     vector<int> rightSideView(TreeNode *root) {
@@ -36,7 +37,7 @@ public:
         return res;
     }
 };
-
+//DFS
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
